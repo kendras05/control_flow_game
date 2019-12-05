@@ -1,0 +1,17 @@
+puts "Let's play a game!"
+puts "Higher number wins."
+puts "Pick a number between 0 and 9"
+my_number = Random.rand(10)
+your_number = gets.chomp.to_i
+
+if my_number == your_number
+puts "It's a tie!"
+elsif my_number < your_number
+puts "You win!"
+else
+puts "I guess I won!"
+if your_number >= 10
+puts "error: thats not an option" 
+else
+end
+
